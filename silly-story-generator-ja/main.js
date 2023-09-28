@@ -7,7 +7,7 @@ function randomValueFromArray(array){
   return array[random];
 }
 //文字は''で囲む.最後は;つける
-const storyText = 'It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.';
+const storyText = '外の気温は94度だった。:insertx:は散歩にでかけた。:inserty:は突然恐怖の表情をした。:insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.';
 //配列は[]で囲んで宣言
 const insertX = ['桃太郎','野比のび太','ひとみ'];
 const insertY = ['原宿','マスカラ','渋谷'];
