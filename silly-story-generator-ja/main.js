@@ -9,9 +9,9 @@ function randomValueFromArray(array){
 //文字は''で囲む.最後は;つける
 const storyText = '外の気温は94度だった。:insertx:は散歩にでかけた。:inserty:は突然恐怖の表情をした。:insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.';
 //配列は[]で囲んで宣言
-const insertX = ['桃太郎','野比のび太','ひとみ'];
-const insertY = ['原宿','マスカラ','渋谷'];
-const insertZ = ['パンダ','かぐや姫','アンミカ'];
+const insertX = ['桃太郎', '野比のび太', 'ひとみ'];
+const insertY = ['原宿', 'マスカラ', '渋谷'];
+const insertZ = ['パンダ', 'かぐや姫', 'アンミカ'];
 
 randomize.addEventListener('click', result);
 
