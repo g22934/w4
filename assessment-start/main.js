@@ -16,7 +16,12 @@ const insertZ = ['spontaneously combusted','melted into a puddle on the sidewalk
 randomize.addEventListener('click', result);
 
 function result() {
-
+//newStory という変数を作り、storyText の値を newStory 変数に格納します。
+  let newStory =storyText;
+const xItem = randomValueFromArray(insertX);
+const yItem = randomValueFromArray(insertY);
+const zItem = randomValueFromArray(insertZ);
+  
   if(customName.value !== '') {
     const name = customName.value;
 
