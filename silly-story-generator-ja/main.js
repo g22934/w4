@@ -31,7 +31,7 @@ const zItem = randomValueFromArray(insertZ);
     newStory = newStory.replaceAll('Bob', name);
   }
 
-  if(document.getElementById("jp").checked) {
+  if(document.getElementById("us").checked) {
     //const weight = Math.round(300);
     //const temperature =  Math.round(94);
     const weight = `${Math.round(300*0.0714286)} stone`;
