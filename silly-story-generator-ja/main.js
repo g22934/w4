@@ -7,7 +7,7 @@ function randomValueFromArray(array){
   return array[random];
 }
 //文字は''で囲む.最後は;つける
-const storyText = '外の気温は94度だった。:insertx:は散歩にでかけた。:inserty:は突然恐怖の表情をした。:insertz:やほやほやっほー族伝統の踊りをした。 — :insertx:体重が300kgになったけど別に気にしない。
+const storyText = '外の気温は94度だった。:insertx:は散歩にでかけた。:inserty:は突然恐怖の表情をした。:insertz:やほやほやっほー族伝統の踊りをした。 — :insertx:体重が300kgになったけど別に気にしない。';
 const insertX = ['桃太郎', '野比のび太', 'ひとみ'];
 const insertY = ['原宿', 'マスカラ', '渋谷'];
 const insertZ = ['パンダ', 'かぐや姫', 'アンミカ'];
